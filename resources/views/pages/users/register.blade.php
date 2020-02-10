@@ -146,7 +146,7 @@
                         <!--end /div-->
 
                         <div class="m-3 text-center text-muted">
-                            <p class="">Already have an account ? <a href="../authentication/auth-login.html"
+                            <p class="">Already have an account ? <a href="{{ route('login') }}"
                                     class="text-primary ml-2">Log in</a></p>
                         </div>
                     </div>
