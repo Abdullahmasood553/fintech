@@ -27,3 +27,8 @@ Route::post('save_register', 'users\RegisterController@save_register');
 
 Route::get('/login', 'users\LoginController@login');
 Route::post('user_login', 'users\LoginController@user_login');
+
+
+// Profile
+
+Route::get('/profile', 'users\ProfileController@profile');
